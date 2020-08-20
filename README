@@ -1,0 +1,18 @@
+Before process the steps make sure you have NODEJS and MONGODB installed in your system
+
+1. Unzip the file
+2. Go to the root path of the project
+3. run following command to install all the dependencies
+  npm install
+4. run follwoing command to run the server
+  node index.js
+
+5. Call the end point with following details using postman or any other thrid party tool
+  URL : http://localhost:3000/register
+  Body: 
+    {
+      "emailId":"useremail@gmail.com",
+      "password":"userpassword"
+    }
+
+6. you can see one info.txt file will be generated(if not, if already generated then it will append the data) and request details will be logged there based on IST time stamp
